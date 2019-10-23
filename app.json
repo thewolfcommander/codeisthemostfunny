@@ -1,0 +1,22 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "description": "The most awesome website that shows the demo of the most beautiful designs on the web",
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "codeisthemostfunny",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
