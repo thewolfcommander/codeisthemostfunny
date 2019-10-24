@@ -1,10 +1,11 @@
 # codeisthemostfunny
-### The awesome website that demos the most beautiful views of the web
+**The awesome website that demos the most beautiful views of the web**
+<img src="https://github.com/thewolfcommander/codeisthemostfunny/blob/master/assets/codeisthemostfunny/facebook_cover_photo_2.png" width="1080">
 
 ## About The Project
 *I, The Wolf Commander welcomes you to the most interesting project ever made related to the web. Actually this project is developed in order to amaze everyone by showing them the power of the web technologies. Here are the snaps of the home page of the project currently deployed on the Heroku Platform.*
 
-<img src="https://github.com/thewolfcommander/codeisthemostfunny/blob/master/assets/ezgif.com-video-to-gif.gif" width="720">
+<img src="https://github.com/thewolfcommander/codeisthemostfunny/blob/master/assets/ezgif.com-video-to-gif.gif" width="1080">
 
 ## How to contribute
  Don't worry too much about how to contribute to this awesome repository. The project is made in order to showcase the latest technologies in web design and programming. So, if you have anything that you want to showcase to the world then your contributions are heartly welcomed. You just have to follow the instructions given below. **Note: Read the instructions given below very very carefully if you want to contribute into the repository.**
