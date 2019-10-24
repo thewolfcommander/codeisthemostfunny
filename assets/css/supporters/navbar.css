@@ -210,4 +210,14 @@
   .b-container.open .b-brand {
     color: #444444;
   }
+
+  
+  @media screen and (min-width: 300px) and (max-width: 440px) {
+    .b-brand {
+      font-size: 22px;
+      top: -46px;
+      margin-left: 80px;
+    }
+  }
+
   

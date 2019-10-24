@@ -20,3 +20,22 @@
     font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
     color: bisque;
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 720px) {
+    .main_content {
+        width: 360px;
+        padding: 10px;
+        margin-left: 0px;
+        margin-bottom: 100px;
+    }
+    .main_content h1 {
+        font-size: 26px;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.85);
+    }
+    .main_content p {
+        text-shadow: 2px 2px 3px solid black;
+        font-size: 18px;
+        color: rgba(0,0,0,0.85)
+    }
+}
