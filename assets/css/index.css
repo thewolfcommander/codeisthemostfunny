@@ -6,12 +6,13 @@
   }
 
   .main_header {
-    margin-top: 100px;
     width: 100%;
   }
 
   @media screen and (max-width: 720px) {
-    
+    .main_header {
+      margin-top: 50px;
+    }
   }
   
   

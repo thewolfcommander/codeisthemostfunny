@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400');
+
+.latest-front-end-sim {
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.latest-front-end-sim h2 {
+    font-size: 3vw;
+    color: #3399ff;
+    font-weight: 300;
+text-shadow: 2px 2px 3px #d4d9d1;
+}
+
+.container{
+  width:100vw;
+  height: 100vh;
+  perspective: 1000px;
+  padding: 25px;
+  background: #d4d9d1;
+  box-shadow: 4px 3px 8px rgba(0,0,0,0.4);
+  perspective-origin: center;
+}
+
+.container .card {
+    width: 26vw;
+    height: 18vw;
+    background: #fff;
+    box-shadow: 6px 4px 5px rgba(0,0,0,0.23);
+    padding: 10px;
+    float: left;
+    margin: 25px;
+}
+.container .card:hover {
+    background: #DE6262;
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);
+    background: linear-gradient(to right, #FFB88C, #DE6262);
+    box-shadow: 7px 3px 6px rgba(0,0,0,0.19);
+    
+}
+
+.container .inner-card-info {
+    background: inherit;
+    color: #DE6262;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.container .inner-card-info p {
+    color: #3399ff;
+    font-size: 15px;
+}
+
+.container .inner-card-info:hover {
+    color: #fff!important;
+}
+
+.container .inner-card-info p:hover {
+    color: #fff;
+}
+.container .inner-card-info .button {
+    background: #DE6262;
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);
+    background: linear-gradient(to right, #FFB88C, #DE6262);
+    color: #fff;
+    padding: 5px 10px;
+    width: 100px;
+    margin-top: 20px!important;
+    outline: none;
+    text-decoration: none;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.container .inner-card-info .button:hover {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    box-shadow: 7px 3px 6px rgba(0,0,0,0.19);
+  transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000), opacity 300ms ease;
+  transform: translateZ(34px);
+}
+ 
+@media screen and (min-width: 300px) and (max-width: 540px) {
+    
+.latest-front-end-sim {
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.latest-front-end-sim h2 {
+    font-size: 3vw;
+    color: #3399ff;
+    font-weight: 300;
+text-shadow: 2px 2px 3px #d4d9d1;
+}
+
+.container{
+  width:100vw;
+  height: 100vh;
+  perspective: 1000px;
+  padding: 25px;
+  background: #d4d9d1;
+  box-shadow: 4px 3px 8px rgba(0,0,0,0.4);
+  perspective-origin: center;
+}
+
+.container .card {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.container .inner-card-info {
+    background: inherit;
+    color: #DE6262;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+.container .inner-card-info .button:hover {
+  transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000), opacity 300ms ease;
+  transform: translateZ(12px);
+}
+ 
+}
